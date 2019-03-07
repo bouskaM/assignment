@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Matěj Bouška Assignment</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/2.7.0/fabric.js"></script>
+
+</head>
+
+<body>
+    <div id="app">
+        <div class="grid-container">
+            <div class="Header">
+                <h1>Assignments</h1>
+            </div>
+            <div class="Left-panel">
+                <% include partials/nav.ejs %>
+            </div>
+            <div class="Main-content">
+                <div id="paint">
+                    <canvas id="canvas" width="450" height="450" class="canvas"></canvas>
+                    <div id="colorpicker">
+                        <button id="clearBtn">Clear Canvas</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="Right-panel"> <input v-model="num" type="number">
+                <br>
+                <br>
+                <button v-if="num>=1" @click="num--">-</button>
+                <label for="number">{{num}}</label>
+                <button v-if="num<=99" @click="num++">+</button>
+                <br>
+
+                <input v-model="num" id="range" type="range" name="points" min="0" max="100"></div>
+            <div class="Footer">
+                <strong>
+                    MATĚJ BOUŠKA
+                </strong>
+                <br>
+                bouska.matej@gmail.com
+                <br>
+                +420 723 425
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="/assets/main.js"></script>
+    <script src="/assets/draw.js"></script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
