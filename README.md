@@ -26,7 +26,7 @@ $ npm install
 * Done using [Fabricjs](http://fabricjs.com/)
 * TODO: 
 * * Save as a JSON - post to server
-* * Save as img - post to serve
+* * Save as img - post to server
 * * For each JSON and IMG show preview on website
 
 ### Application Structure
