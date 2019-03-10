@@ -28,3 +28,7 @@ $ npm install
 * * Save as a JSON - post to server
 * * Save as img - post to serve
 * * For each JSON and IMG show preview on website
+
+### Application Structure
+* *app.js* - Entry point - Handles all requests
+* *unsatShops.js* - Calculation for Assignment 3
