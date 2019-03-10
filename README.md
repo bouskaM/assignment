@@ -12,7 +12,7 @@ $ npm install
 * Done using CSS Grid
 
 ### Assignment 2
-* Done using Vue.js 
+* Done using [Vue.js](https://vuejs.org/) 
 
 ### Assignment 3
 * Going through all files in data folder - calculating net profit of each franchise
