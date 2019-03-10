@@ -2,7 +2,7 @@
 ## Installation
 
 ```bash
-$ npm install short
+$ npm install
 ```
 ### Dependencies
 * [ExpressJs](https://github.com/expressjs/express)
